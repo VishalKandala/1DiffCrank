@@ -65,4 +65,24 @@ def evplot(Nt,N,t,x,evol,flag):
     #ax.invert_yaxis()
     img='../plots/evol'+str(flag)+'_'+str(Nt).zfill(4)+'_'+str(N).zfill(4)+'.jpg'
     plt.savefig(img)
-
+def slice(t,x,evol,flag):
+    evol=evol.T
+    matplotlib.rc('font',size=12)
+    slc=control.slc
+    fig, axs = plt.subplots(2, 2, sharex=True, sharey=True)
+    axs[0, 0].plot(t,evol[0])
+    axs[0,0].set_title('x='+str(x[0])[:3])
+    axs[0,0].set_ylabel('T[K]')
+    axs[0,1].plot(t,evol[slc])
+    axs[0,1].set_title('x='+str(x[slc])[:3])
+    axs[0,1].set_ylabel('T[K]')
+    axs[1,0].plot(t,evol[m.ceil(2.5*slc)])
+    axs[1,0].set_title('x='+str(x[m.ceil(2.5*slc)])[:3])
+    axs[1,0].set_ylabel('T[K]')
+    axs[1,0].set_xlabel('t[s]')
+    axs[1,1].plot(t,evol[-1])
+    axs[1,1].set_title('x='+str(x[-1])[:3])
+    axs[1,1].set_ylabel('T[K]')
+    axs[1,1].set_xlabel('t[s]')
+    img='../plots/slice_'+str(flag)+'_'+str(len(t)).zfill(4)+'_'+str(len(x)).zfill(4)+'.jpg'
+    plt.savefig(img)

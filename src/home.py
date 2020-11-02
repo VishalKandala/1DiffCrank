@@ -64,7 +64,9 @@ else:
 ########################
 # Post Processing #
 
-post.snapshots(t,x,evol,flag) 
+post.slice(t,x,evol,flag)
+
+#post.snapshots(t,x,evol,flag) 
 
 #post.evplot(Nt,N,t,x,evol,flag) # Plot Time evolution surface.
 

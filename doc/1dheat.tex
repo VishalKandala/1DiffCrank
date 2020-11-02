@@ -117,7 +117,7 @@ c \rho A \Delta x \bigg(u(x+ \Delta x,t)-u(x,t) \bigg) = -K_{0} \Delta t A \bigg
 \end{equation}
 \end{center}
 \item This equation is also known as the second order diffusion equation, the co-efficient $\alpha$ is known as the Thermal diffusivity and is a material property.
-\item To make use of the Heat equation, Boundary conditions and Initial condition are required.
+\item To make use of the Heat equation, two Boundary conditions and one Initial condition are required.(due to the equation being second order in space and first order in time)
 \item The initial condition in this case is the initial temperature profile $u(x,0)$.
 \item The solution is effected by the boundary conditions which can be determined from the condition that the rod is insulated at both ends.
 \end{enumerate}
@@ -248,12 +248,7 @@ u_{i}^{n+1}=u_{i}^{n}+ \frac{\lambda}{2} \bigg[ \Big(u_{i+1}^{n+1}-2u_{i}^{n+1}+
 	\frac{\partial u_{N}}{\partial x}=\frac{u_{N+1}-u{N-1}}{\Delta x}=0 &\\
 	u_{N+1}=u_{N-1} & 
 \end{align*}
-\end{enumerate}
-\end{frame}
-
-\begin{frame}{Boundary Condition Implementation}
-\begin{enumerate}
-	\item The relations between $u_{-1}$. $u_{1}$, $u_{N+1}$ and $u_{N-1}$ are then used to homogenously implement the CN scheme at boundaries. 
+\item The relations developed using the ghost nodes are used to implement Equation~\ref{cn} at the boundaries.
 \end{enumerate}
 \end{frame}
 
@@ -371,6 +366,45 @@ u_{i}^{n+1}=u_{i}^{n}+ \frac{\lambda}{2} \bigg[ \Big(u_{i+1}^{n+1}-2u_{i}^{n+1}+
 	\label{fig:const-snap}
 \end{center}
 \end{figure}
+\end{frame}
+
+\begin{frame}{Grid slices of Solutions}
+\begin{figure}
+\begin{center}
+	\includegraphics[scale=0.5]{../plots/slice_2_0500_2000.jpg}
+	\caption{Grid slices of u(x,t) for  u(x,0)=0.5(sin(x)+cos(x))}
+	\label{fig:sin-cos-slice}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Grid slices of Solutions}
+\begin{figure}
+\begin{center}
+	\includegraphics[scale=0.5]{../plots/slice_0_0500_2000.jpg}
+	\caption{Grid slices of u(x,t) for u(x,0)=0.8(sin(x))}
+	\label{fig:sin-slice}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Snapshots of Solutions}
+\begin{figure}
+\begin{center}
+	\includegraphics[scale=0.5]{../plots/slice_1_0500_2000.jpg}
+	\caption{Grid slices of u(x,t) for u(x,0)=0.2 i.e constant}
+	\label{fig:const-slice}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Conclusions}
+\begin{enumerate}
+\item A numerical solution for the 1D insulated rod problem has been developed.
+\item The solution shows that the temperature homogenizes over time i.e gradients are smoothened out.
+\item The equillibrium value of temperature is equal to the average value in it's surroundings.
+\item Various different initial conditions all lead to the same equillibrium or final state.
+\end{enumerate}
 \end{frame}
 
 %\begin{frame}
