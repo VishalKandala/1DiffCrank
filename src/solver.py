@@ -3,7 +3,7 @@ import time
 import numpy as np
 # Solution(Time Stepping) #
 
-def solve(N,Nt,u,Cin1,RHSi,bi,Cn,b,Cn1,RHS):
+def solve(N,Nt,u,Cin1,RHSi,bi,Cn,b,Cn1,RHS,flag):
     evol=[]
     start=time.time() # Computational time count started.
     for t in range(Nt):
@@ -17,7 +17,7 @@ def solve(N,Nt,u,Cin1,RHSi,bi,Cn,b,Cn1,RHS):
         evol.append(u)
     end=time.time()-start
     evol=np.array(evol)
-    filename='../results/u_'+str(Nt).zfill(4)+'_'+str(N).zfill(4)+'.csv'
+    filename='../results/u'+str(flag)+'_'+str(Nt).zfill(4)+'_'+str(N).zfill(4)+'.csv'
     np.savetxt(filename,evol,delimiter=',')
     print("Solution Completed in "+str(end)[:5]+" seconds")
-    return evol
+    return [evol,end]

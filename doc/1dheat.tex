@@ -281,26 +281,76 @@ u_{i}^{n+1}=u_{i}^{n}+ \frac{\lambda}{2} \bigg[ \Big(u_{i+1}^{n+1}-2u_{i}^{n+1}+
 
 \begin{frame}{function}
 \begin{enumerate}
-\item The user executes \textbf{home.py} with an argument "-s" which has a value of 1 or 0.
+\item The user executes \textbf{home.py} with arguments "-s" and "-u0", these confirm whether a new solution must be generated and also which initial solution to apply. 
 \item Here, based on the argument, if a new solution is to be generated, then the relevant parameters are pulled from control.py, case.py and scheme.py
 \item The parameters are then input into a \textbf{solve()} function written in \textbf{solver.py} that saves csv results in results folder and returns a 2D array.
 \item The solve() function implements Rannacher time stepping with co-efficients of CN scheme and implicit euler scheme that are pulled from scheme.py.
 \item In home, this 2D array is passed on to the post processing functions present in \textbf{post.py}.
 \end{enumerate}
 \end{frame}
+
 \section{Results}
 
-\begin{frame}{Time Evolution of Solution}
+\begin{frame}{Time Evolution of Solutions}
 \begin{figure}
 \begin{center}
-	\includegraphics[scale=0.5]{../plots/evol_0500_2000.jpg}
+	\includegraphics[scale=0.5]{../plots/evol2_0500_2000.jpg}
 	\caption{Time evolution for u(x,0)=0.5(sin(x)+cos(x))}
+	\label{fig:sin-cos-evol}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Time Evolution of Solutions}
+\begin{figure}
+\begin{center}
+	\includegraphics[scale=0.5]{../plots/evol0_0500_2000.jpg}
+	\caption{Time evolution for u(x,0)=0.8(sin(x))}
 	\label{fig:sin-evol}
 \end{center}
 \end{figure}
 \end{frame}
 
-%------------------------------------------------
+\begin{frame}{Time Evolution of Solutions}
+\begin{figure}
+\begin{center}
+	\includegraphics[scale=0.5]{../plots/evol1_0500_2000.jpg}
+	\caption{Time evolution for u(x,0)=0.2 i.e constant}
+	\label{fig:const-evol}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Snapshots of Solutions}
+\begin{figure}
+\begin{center}
+	\includegraphics[scale=0.5]{../plots/snap_2_0500_2000.jpg}
+	\caption{Snapshots of u(x,t) for  u(x,0)=0.5(sin(x)+cos(x))}
+	\label{fig:sin-cos-snap}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Snapshots of Solutions}
+\begin{figure}
+\begin{center}
+	\includegraphics[scale=0.5]{../plots/snap_0_0500_2000.jpg}
+	\caption{Snapshots of u(x,t) for u(x,0)=0.8(sin(x))}
+	\label{fig:sin-snap}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Snapshots of Solutions}
+\begin{figure}
+\begin{center}
+	\includegraphics[scale=0.5]{../plots/snap_1_0500_2000.jpg}
+	\caption{Snapshots of u(x,t) for u(x,0)=0.2 i.e constant}
+	\label{fig:const-snap}
+\end{center}
+\end{figure}
+\end{frame}
+
 %\begin{frame}
 %\frametitle{References}
 %\footnotesize{

@@ -3,6 +3,18 @@
 import numpy as np
 
 def u0(x):
+    a=0.8
+    b=0
+    k1=1
+    k2=1
+    u=a*np.sin(k1*x)+b*np.cos(k2*x)
+    return u
+
+def u1(x):
+    u=np.repeat(0.2,len(x))
+    return u
+
+def u2(x):
     a=0.5
     b=0.5
     k1=1

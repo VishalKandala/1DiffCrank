@@ -9,7 +9,9 @@ import case
 # Argument Parsing #
 ap=argparse.ArgumentParser()
 ap.add_argument("-s", "--solve", required=True, help='new solution')
+ap.add_argument("-u0", "--initial", required=True, help='choose initial function')
 arg=vars(ap.parse_args())
+flag=int(arg['initial'])
 #########################
 
 # Grid Initialization#
@@ -38,15 +40,21 @@ if (int(arg['solve'])==1):
     print('CFL:{:.3}'.format(cfl))
 
 # Initialization #
-    u=case.u0(x) #Initial Solution generated.
-
+    if (flag==0):
+        u=case.u0(x) #Initial Solution generated.
+    elif (flag==1):
+        u=case.u1(x) 
+    elif (flag==2):
+        u=case.u2(x)
     RHS=Cn.dot(u)+b # Initial RHS value for CN scheme.
 
     RHSi=u+b # Initial RHS value for implicit scheme.
 #########################
 
 # Solution #
-    evol=solver.solve(N,Nt,u,Cin1,RHSi,bi,Cn,b,Cn1,RHS)
+    soln=solver.solve(N,Nt,u,Cin1,RHSi,bi,Cn,b,Cn1,RHS,flag)
+    comptime=soln[1]
+    evol=soln[0]
 #########################
 # Reading Solution from file #
 else:
@@ -56,7 +64,9 @@ else:
 ########################
 # Post Processing #
 
-post.evplot(Nt,N,t,x,evol) # Plot Time evolution surface.
+post.snapshots(t,x,evol,flag) 
 
-post.vid(t,x,evol) # Create Function evolution video.   
+#post.evplot(Nt,N,t,x,evol,flag) # Plot Time evolution surface.
+
+#post.vid(t,x,evol) # Create Function evolution video.   
 

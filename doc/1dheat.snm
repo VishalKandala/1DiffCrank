@@ -9,4 +9,9 @@
 \beamer@slide {cn}{13}
 \beamer@slide {cnvec}{13}
 \beamer@slide {dir}{19}
-\beamer@slide {fig:sin-evol}{23}
+\beamer@slide {fig:sin-cos-evol}{23}
+\beamer@slide {fig:sin-evol}{24}
+\beamer@slide {fig:const-evol}{25}
+\beamer@slide {fig:sin-cos-snap}{26}
+\beamer@slide {fig:sin-snap}{27}
+\beamer@slide {fig:const-snap}{28}
