@@ -65,6 +65,7 @@ def evplot(Nt,N,t,x,evol,flag):
     #ax.invert_yaxis()
     img='../plots/evol'+str(flag)+'_'+str(Nt).zfill(4)+'_'+str(N).zfill(4)+'.jpg'
     plt.savefig(img)
+
 def slice(t,x,evol,flag):
     evol=evol.T
     matplotlib.rc('font',size=12)

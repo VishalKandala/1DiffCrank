@@ -64,11 +64,11 @@ else:
 ########################
 # Post Processing #
 
-post.slice(t,x,evol,flag)
+#post.slice(t,x,evol,flag)
 
 #post.snapshots(t,x,evol,flag) 
 
 #post.evplot(Nt,N,t,x,evol,flag) # Plot Time evolution surface.
 
-#post.vid(t,x,evol) # Create Function evolution video.   
+post.vid(t,x,evol,flag) # Create Function evolution video.   
 
