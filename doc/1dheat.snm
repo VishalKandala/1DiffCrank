@@ -3,7 +3,9 @@
 \beamer@slide {cons-four}{5}
 \beamer@slide {1diff}{6}
 \beamer@slide {neumannbc}{8}
+\beamer@slide {u2}{8}
 \beamer@slide {u0}{8}
+\beamer@slide {u1}{8}
 \beamer@slide {alpha}{9}
 \beamer@slide {cfl}{12}
 \beamer@slide {cn}{13}

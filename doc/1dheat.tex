@@ -134,11 +134,17 @@ c \rho A \Delta x \bigg(u(x+ \Delta x,t)-u(x,t) \bigg) = -K_{0} \Delta t A \bigg
 \end{center}
 \item This kind of boundary condition is known as the Neumann Boundary condition as opposed to holding the ends at a certain constant temperature which is known as the Dirichlet boundary condition. 
 \begin{center}
-\begin{equation} \label{u0}
+\begin{equation} \label{u2}
 u(x,0)=0.5 \big (  sin(x)+cos(x) \big )
 \end{equation}
+\begin{equation} \label{u0}
+u(x,0)=0.8(sin(x))
+\end{equation}
+\begin{equation} \label{u1}
+u(x,0)=0.2
+\end{equation}
 \end{center}
-\item The Initial condition represented in Equation~\ref{u0} is a sinosuidal condition.
+\item The Initial conditions represented in Equations~\ref{u2} and ~\ref{u0} are sinosuidal conditions, where as Equation~\ref{u1} is a constant value condition.
 \end{enumerate}
 \end{frame}
 
@@ -296,7 +302,7 @@ u_{i}^{n+1}=u_{i}^{n}+ \frac{\lambda}{2} \bigg[ \Big(u_{i+1}^{n+1}-2u_{i}^{n+1}+
 \end{enumerate}
 \end{frame}
 
-\begin{frame}{function}
+\begin{frame}{Function}
 \begin{enumerate}
 \item The user executes \textbf{home.py} with arguments "-s" and "-u0", these confirm whether a new solution must be generated and also which initial solution to apply. 
 \item Here, based on the argument, if a new solution is to be generated, then the relevant parameters are pulled from control.py, case.py and scheme.py
@@ -388,7 +394,7 @@ u_{i}^{n+1}=u_{i}^{n}+ \frac{\lambda}{2} \bigg[ \Big(u_{i+1}^{n+1}-2u_{i}^{n+1}+
 \end{figure}
 \end{frame}
 
-\begin{frame}{Snapshots of Solutions}
+\begin{frame}{Grid slices of Solutions}
 \begin{figure}
 \begin{center}
 	\includegraphics[scale=0.5]{../plots/slice_1_0500_2000.jpg}
@@ -407,8 +413,17 @@ u_{i}^{n+1}=u_{i}^{n}+ \frac{\lambda}{2} \bigg[ \Big(u_{i+1}^{n+1}-2u_{i}^{n+1}+
 \end{enumerate}
 \end{frame}
 
-%\begin{frame}
-%\frametitle{References}
+
+\begin{frame}{Improvements}
+\begin{enumerate}
+\item Sparse matrix formulation would reduce computation time.
+\item Being an implicit scheme, parallelization using openmp is possible 
+\item The co-efficient matrices must be modified to include dirichlet boundary conditions.
+\item Grid Independence study can be performed.
+\item The accuracy (L2 Norm) of the error function can be plotted against the singularity solution available for some canonical conditions such as dirichlet BCs with a constant initial condition.
+\end{enumerate}
+\end{frame}
+
 %\footnotesize{
 %\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
 %\bibitem[Smith, 2012]{p1} John Doe (2012)
