@@ -235,6 +235,28 @@ u_{i}^{n+1}=u_{i}^{n}+ \frac{\lambda}{2} \bigg[ \Big(u_{i+1}^{n+1}-2u_{i}^{n+1}+
 \end{enumerate}
 \end{frame}
 
+\begin{frame}{Boundary Condition Implementation}
+\begin{enumerate}
+	\item To be able to apply the Neumann Boundary conditions described by Equation~\ref{neumannbc}, ghost points are assumed to be present at either ends of the stencil (grid).
+\begin{center}
+	\includegraphics[scale=1]{ghost.png}
+\end{center}
+\item Using the ghost points, the spatial gradients at the boundaries are computed using a first order central difference approach.
+\begin{align*}	
+	\frac{\partial u_{0}}{\partial x}=\frac{u_{1}-u_{-1}}{\Delta x}=0 & \\
+	u_{-1}=u_{1} & \\
+	\frac{\partial u_{N}}{\partial x}=\frac{u_{N+1}-u{N-1}}{\Delta x}=0 &\\
+	u_{N+1}=u_{N-1} & 
+\end{align*}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Boundary Condition Implementation}
+\begin{enumerate}
+	\item The relations between $u_{-1}$. $u_{1}$, $u_{N+1}$ and $u_{N-1}$ are then used to homogenously implement the CN scheme at boundaries. 
+\end{enumerate}
+\end{frame}
+
 \begin{frame}{Rannacher Smoothing}
 \begin{enumerate}
 \item To avoid the dispersion caused by crank nicholson scheme, One strategy is to start the first two solutions with an implicit euler formulation and a timestep that is half the original value.

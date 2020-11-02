@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  1 NOV 2020 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  2 NOV 2020 00:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,9 +1192,14 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 [15
 
 ]
+<ghost.png, id=289, 197.7789pt x 48.18pt>
+File: ghost.png Graphic file (type png)
+<use ghost.png>
+Package pdftex.def Info: ghost.png  used on input line 252.
+(pdftex.def)             Requested size: 197.77841pt x 48.17986pt.
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 245.
+Package pdftex.def Info: TAM-Logo.png  used on input line 252.
 (pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
 
 Overfull \hbox (33.56691pt too wide) has occurred while \output is active
@@ -1203,10 +1208,10 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 
 [16
 
-] (./1dheat.toc)
+ <./ghost.png (PNG copy)>]
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 247.
+Package pdftex.def Info: TAM-Logo.png  used on input line 258.
 (pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
 
 Overfull \hbox (33.56691pt too wide) has occurred while \output is active
@@ -1218,7 +1223,7 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 ]
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 255.
+Package pdftex.def Info: TAM-Logo.png  used on input line 267.
 (pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
 
 Overfull \hbox (33.56691pt too wide) has occurred while \output is active
@@ -1227,20 +1232,10 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 
 [18
 
-]
-<dir.png, id=325, 545.03625pt x 32.12pt>
-File: dir.png Graphic file (type png)
-<use dir.png>
-Package pdftex.def Info: dir.png  used on input line 272.
-(pdftex.def)             Requested size: 163.51213pt x 9.63606pt.
-<srcdir.png, id=326, 883.3pt x 37.13875pt>
-File: srcdir.png Graphic file (type png)
-<use srcdir.png>
-Package pdftex.def Info: srcdir.png  used on input line 272.
-(pdftex.def)             Requested size: 264.99205pt x 11.14171pt.
+] (./1dheat.toc)
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 272.
+Package pdftex.def Info: TAM-Logo.png  used on input line 269.
 (pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
 
 Overfull \hbox (33.56691pt too wide) has occurred while \output is active
@@ -1249,10 +1244,10 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 
 [19
 
- <./dir.png> <./srcdir.png>]
+]
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 280.
+Package pdftex.def Info: TAM-Logo.png  used on input line 277.
 (pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
 
 Overfull \hbox (33.56691pt too wide) has occurred while \output is active
@@ -1262,9 +1257,19 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 [20
 
 ]
+<dir.png, id=350, 545.03625pt x 32.12pt>
+File: dir.png Graphic file (type png)
+<use dir.png>
+Package pdftex.def Info: dir.png  used on input line 294.
+(pdftex.def)             Requested size: 163.51213pt x 9.63606pt.
+<srcdir.png, id=351, 883.3pt x 37.13875pt>
+File: srcdir.png Graphic file (type png)
+<use srcdir.png>
+Package pdftex.def Info: srcdir.png  used on input line 294.
+(pdftex.def)             Requested size: 264.99205pt x 11.14171pt.
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 290.
+Package pdftex.def Info: TAM-Logo.png  used on input line 294.
 (pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
 
 Overfull \hbox (33.56691pt too wide) has occurred while \output is active
@@ -1273,24 +1278,7 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 
 [21
 
-] (./1dheat.toc)
-File: TAM-Logo.png Graphic file (type png)
-<use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 292.
-(pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
-
-Overfull \hbox (33.56691pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] 
- []
-
-[22
-
-]
-<../plots/evol2_0500_2000.jpg, id=382, 462.528pt x 346.896pt>
-File: ../plots/evol2_0500_2000.jpg Graphic file (type jpg)
-<use ../plots/evol2_0500_2000.jpg>
-Package pdftex.def Info: ../plots/evol2_0500_2000.jpg  used on input line 302.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ <./dir.png> <./srcdir.png>]
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
 Package pdftex.def Info: TAM-Logo.png  used on input line 302.
@@ -1300,14 +1288,9 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] 
  []
 
-[23
+[22
 
- <../plots/evol2_0500_2000.jpg>]
-<../plots/evol0_0500_2000.jpg, id=396, 462.528pt x 346.896pt>
-File: ../plots/evol0_0500_2000.jpg Graphic file (type jpg)
-<use ../plots/evol0_0500_2000.jpg>
-Package pdftex.def Info: ../plots/evol0_0500_2000.jpg  used on input line 312.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+]
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
 Package pdftex.def Info: TAM-Logo.png  used on input line 312.
@@ -1317,17 +1300,29 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] 
  []
 
+[23
+
+] (./1dheat.toc)
+File: TAM-Logo.png Graphic file (type png)
+<use TAM-Logo.png>
+Package pdftex.def Info: TAM-Logo.png  used on input line 314.
+(pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
+
+Overfull \hbox (33.56691pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] 
+ []
+
 [24
 
- <../plots/evol0_0500_2000.jpg>]
-<../plots/evol1_0500_2000.jpg, id=409, 462.528pt x 346.896pt>
-File: ../plots/evol1_0500_2000.jpg Graphic file (type jpg)
-<use ../plots/evol1_0500_2000.jpg>
-Package pdftex.def Info: ../plots/evol1_0500_2000.jpg  used on input line 322.
+]
+<../plots/evol2_0500_2000.jpg, id=407, 462.528pt x 346.896pt>
+File: ../plots/evol2_0500_2000.jpg Graphic file (type jpg)
+<use ../plots/evol2_0500_2000.jpg>
+Package pdftex.def Info: ../plots/evol2_0500_2000.jpg  used on input line 324.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 322.
+Package pdftex.def Info: TAM-Logo.png  used on input line 324.
 (pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
 
 Overfull \hbox (33.56691pt too wide) has occurred while \output is active
@@ -1336,16 +1331,15 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 
 [25
 
- <../plots/evol1_0500_2000.jpg>]
-<../plots/snap_2_0500_2000.jpg, id=423, 462.528pt x 346.896pt>
-File: ../plots/snap_2_0500_2000.jpg Graphic file (type jpg)
-<use ../plots/snap_2_0500_2000.jpg>
-Package pdftex.def Info: ../plots/snap_2_0500_2000.jpg  used on input line 332.
-
+ <../plots/evol2_0500_2000.jpg>]
+<../plots/evol0_0500_2000.jpg, id=421, 462.528pt x 346.896pt>
+File: ../plots/evol0_0500_2000.jpg Graphic file (type jpg)
+<use ../plots/evol0_0500_2000.jpg>
+Package pdftex.def Info: ../plots/evol0_0500_2000.jpg  used on input line 334.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 332.
+Package pdftex.def Info: TAM-Logo.png  used on input line 334.
 (pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
 
 Overfull \hbox (33.56691pt too wide) has occurred while \output is active
@@ -1354,16 +1348,15 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 
 [26
 
- <../plots/snap_2_0500_2000.jpg>]
-<../plots/snap_0_0500_2000.jpg, id=436, 462.528pt x 346.896pt>
-File: ../plots/snap_0_0500_2000.jpg Graphic file (type jpg)
-<use ../plots/snap_0_0500_2000.jpg>
-Package pdftex.def Info: ../plots/snap_0_0500_2000.jpg  used on input line 342.
-
+ <../plots/evol0_0500_2000.jpg>]
+<../plots/evol1_0500_2000.jpg, id=434, 462.528pt x 346.896pt>
+File: ../plots/evol1_0500_2000.jpg Graphic file (type jpg)
+<use ../plots/evol1_0500_2000.jpg>
+Package pdftex.def Info: ../plots/evol1_0500_2000.jpg  used on input line 344.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 342.
+Package pdftex.def Info: TAM-Logo.png  used on input line 344.
 (pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
 
 Overfull \hbox (33.56691pt too wide) has occurred while \output is active
@@ -1372,16 +1365,16 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 
 [27
 
- <../plots/snap_0_0500_2000.jpg>]
-<../plots/snap_1_0500_2000.jpg, id=449, 462.528pt x 346.896pt>
-File: ../plots/snap_1_0500_2000.jpg Graphic file (type jpg)
-<use ../plots/snap_1_0500_2000.jpg>
-Package pdftex.def Info: ../plots/snap_1_0500_2000.jpg  used on input line 352.
+ <../plots/evol1_0500_2000.jpg>]
+<../plots/snap_2_0500_2000.jpg, id=447, 462.528pt x 346.896pt>
+File: ../plots/snap_2_0500_2000.jpg Graphic file (type jpg)
+<use ../plots/snap_2_0500_2000.jpg>
+Package pdftex.def Info: ../plots/snap_2_0500_2000.jpg  used on input line 354.
 
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 352.
+Package pdftex.def Info: TAM-Logo.png  used on input line 354.
 (pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
 
 Overfull \hbox (33.56691pt too wide) has occurred while \output is active
@@ -1390,10 +1383,16 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 
 [28
 
- <../plots/snap_1_0500_2000.jpg>]
+ <../plots/snap_2_0500_2000.jpg>]
+<../plots/snap_0_0500_2000.jpg, id=460, 462.528pt x 346.896pt>
+File: ../plots/snap_0_0500_2000.jpg Graphic file (type jpg)
+<use ../plots/snap_0_0500_2000.jpg>
+Package pdftex.def Info: ../plots/snap_0_0500_2000.jpg  used on input line 364.
+
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 File: TAM-Logo.png Graphic file (type png)
 <use TAM-Logo.png>
-Package pdftex.def Info: TAM-Logo.png  used on input line 369.
+Package pdftex.def Info: TAM-Logo.png  used on input line 364.
 (pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
 
 Overfull \hbox (33.56691pt too wide) has occurred while \output is active
@@ -1401,6 +1400,36 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
  []
 
 [29
+
+ <../plots/snap_0_0500_2000.jpg>]
+<../plots/snap_1_0500_2000.jpg, id=473, 462.528pt x 346.896pt>
+File: ../plots/snap_1_0500_2000.jpg Graphic file (type jpg)
+<use ../plots/snap_1_0500_2000.jpg>
+Package pdftex.def Info: ../plots/snap_1_0500_2000.jpg  used on input line 374.
+
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+File: TAM-Logo.png Graphic file (type png)
+<use TAM-Logo.png>
+Package pdftex.def Info: TAM-Logo.png  used on input line 374.
+(pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
+
+Overfull \hbox (33.56691pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] 
+ []
+
+[30
+
+ <../plots/snap_1_0500_2000.jpg>]
+File: TAM-Logo.png Graphic file (type png)
+<use TAM-Logo.png>
+Package pdftex.def Info: TAM-Logo.png  used on input line 391.
+(pdftex.def)             Requested size: 364.24161pt x 273.18204pt.
+
+Overfull \hbox (33.56691pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] 
+ []
+
+[31
 
 ]
 \tf@nav=\write7
@@ -1412,48 +1441,49 @@ Overfull \hbox (33.56691pt too wide) has occurred while \output is active
 \tf@snm=\write9
 \openout9 = `1dheat.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 393.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 393.
  (./1dheat.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 371.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 393.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 393.
 Package rerunfilecheck Info: File `1dheat.out' has not changed.
 (rerunfilecheck)             Checksum: 3C17B5CBF91AD923F775E0717916A205;230.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 21981 strings out of 483183
- 428699 string characters out of 5966292
- 703297 words of memory out of 5000000
- 36348 multiletter control sequences out of 15000+600000
+ 21992 strings out of 483183
+ 428814 string characters out of 5966292
+ 703295 words of memory out of 5000000
+ 36355 multiletter control sequences out of 15000+600000
  540804 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  54i,16n,65p,790b,786s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Navigation30} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy7.pfb>
-Output written on 1dheat.pdf (29 pages, 619394 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb>
+Output written on 1dheat.pdf (31 pages, 638319 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 464 compressed objects within 5 object streams
- 82 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 583 PDF objects out of 1000 (max. 8388607)
+ 486 compressed objects within 5 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
